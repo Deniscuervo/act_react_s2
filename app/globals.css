@@ -1,0 +1,23 @@
+.tarjeta-global {
+  border: 2px solid;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+  margin: 1rem;
+}
+
+.tarjeta-global:hover {
+  transform: scale(1.05);
+}
+
+.titulo-global {
+  font-size: 1.5rem;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+}
+
+.contenido-global {
+  color: #374151;
+  line-height: 1.6;
+}
